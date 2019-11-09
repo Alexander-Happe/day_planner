@@ -1,6 +1,13 @@
 var hours = ["9am", "10am", "11am", "12pm", "1pm", "2pm", "3pm", "4pm", "5pm"]
 var newRow = $("<div>").attr("class", "row")
+var moment = moment().format('dddd, MMMM Do YYYY');
+function addDate(){
+    var dateTime = $("<h2>")
+        .text("Todays date is: " + moment)
+    $(".heading").append(dateTime)
 
+}
+addDate()
 function makeTable(){
     for(i=0;i<hours.length;i++){
         var hrCol = $("<div>")
@@ -77,4 +84,4 @@ $("#5pmbttn").on("click", function(event){
     localStorage.removeItem("5pm")
     localStorage.setItem("5pm", valuebttn)
 })
-localStorage.clear()
+
