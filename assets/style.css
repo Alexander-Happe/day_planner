@@ -1,0 +1,22 @@
+.head{
+    text-align: center;
+}
+.sbmBttn{
+    background-color: blue;
+    margin-bottom: 10px;
+}
+
+.headingrow{
+    border-bottom: 10px solid black;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.time{
+    text-align: center;
+    border-bottom: 3px solid gray;
+    margin-bottom: 10px;
+}
+.inputArea {
+    margin-bottom: 10px;
+    background-color: lightgray;
+}
