@@ -9,7 +9,6 @@ var moment = moment().format('dddd, MMMM Do YYYY');
 //}
 //I can't get moment to work for me more than the one time
 //I was going to use a military hour to determine the class and therefor color of the textareas
-colorChange
 function addDate(){
     var dateTime = $("<h2>")
         .attr("class", "head headbottom")
